@@ -49,6 +49,7 @@ namespace SubmersedVR
                 logoRect.localScale = new Vector3(0.6f, 0.6f, 0.6f);//Vector3.one;
                 logoRect.anchoredPosition = new Vector2(logoRect.rect.width / 5.0f, 200.0f);
             }
+            __instance.transform.localScale = new Vector3(3.4f, 3.4f, 3.4f);
         }
     }
 
@@ -57,10 +58,12 @@ namespace SubmersedVR
     {
         static void Postfix(WaitScreen __instance)
         {
-            SteamVrGameInput.InputLocked = __instance.isShown;
+            SteamVrGameInput.InputLocked = __instance.isWaiting;
         }
     }
+    
 
+/*
     //We modified the screen scale to be smaller in order to display all UI items but we want
     //this screen to cover the entire UI so it needs to be scaled up
     [HarmonyPatch(typeof(WaitScreen), nameof(WaitScreen.Awake))]
@@ -72,5 +75,5 @@ namespace SubmersedVR
             uGUI.main.loading.transform.localScale = new Vector3(3.4f, 3.4f, 3.4f);
         }
     }
-
+*/
 }

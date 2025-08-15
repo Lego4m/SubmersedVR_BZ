@@ -14,7 +14,7 @@ namespace SubmersedVR
     }
 
     #region Patches
-
+/*
     //https://github.com/elliotttate/VRTweaks/blob/master/VRTweaks/WBOITFixes.cs
     [HarmonyPatch(typeof(WBOIT), nameof(WBOIT.CreateRenderTargets))]
     internal class CreateRenderTargets_Patch
@@ -69,7 +69,7 @@ namespace SubmersedVR
 
         }
     }
-
+*/
 /*
     //Fix for injection container sample being invisible (liquid inside still doesnt show)
     //sample_extraction_machine_containerContents_geo    material.renderer.renderqueue = 2500 frolo_Cure_Liquid (Instance)
