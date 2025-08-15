@@ -8,4 +8,3 @@ Grab the latest release from https://github.com/jbusfield/SubmersedVR_BZ/release
 
 ### Credits
 This mod is based on work by Okabintaro for his SubmersedVR project which provides 6dof first verson VR for the original Subnautica. Thanks also to MrPurple6411 for his GlobalGameManagerVRPatcher which adds VR back into the game (https://github.com/elliotttate/Bepinex-Tools/tree/main/GlobalGameManagerVRPatcher) and the guys at https://www.nexusmods.com/subnauticabelowzero/mods/118 for inspiration and code snippets.
-
